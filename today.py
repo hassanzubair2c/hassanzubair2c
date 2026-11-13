@@ -1,7 +1,7 @@
 """
 Builds dark_mode.svg and light_mode.svg: a neofetch-style GitHub profile card.
 
-Run locally:   ACCESS_TOKEN=ghp_xxx USER_NAME=hassanzubair1c python today.py
+Run locally:   ACCESS_TOKEN=ghp_xxx USER_NAME=hassanzubair2c python today.py
 Preview only:  python today.py --demo        (sample numbers, no token needed)
 The GitHub Action in .github/workflows/build.yaml runs this daily.
 """
@@ -15,7 +15,7 @@ import time
 import requests
 
 # ───────────────────────────── EDIT ME ─────────────────────────────
-USER = os.environ.get("USER_NAME", "hassanzubair1c")
+USER = os.environ.get("USER_NAME", "hassanzubair2c")
 HEADER = "hassan@zubair"
 UPTIME_SINCE = dt.date(2016, 1, 1)  # career start (shows as "Uptime")
 
